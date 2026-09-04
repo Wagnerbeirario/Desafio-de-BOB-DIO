@@ -1,0 +1,27 @@
+{
+  "name": "dio-explorer",
+  "version": "1.0.0",
+  "description": "DIO Explorer — testes unitários dos slash commands /trilha /desafio /certificado",
+  "type": "commonjs",
+  "scripts": {
+    "test": "jest --coverage --coverageReporters=text --coverageReporters=lcov",
+    "test:ci": "jest --coverage --coverageReporters=text --coverageThreshold='{\"global\":{\"lines\":70}}'"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "collectCoverageFrom": [
+      "src/**/*.js"
+    ],
+    "coverageThreshold": {
+      "global": {
+        "lines": 70,
+        "functions": 70,
+        "branches": 70,
+        "statements": 70
+      }
+    }
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}

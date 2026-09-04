@@ -1,0 +1,23 @@
+# Dependencias Node.js
+node_modules/
+**/node_modules/
+
+# Build TypeScript (gerado localmente - rode npm run build)
+dio_explorer/mcp/build/
+
+# Cobertura de testes
+dio_explorer/coverage/
+
+# Variaveis de ambiente
+.env
+.env.*
+*.env
+
+# Cache e temporarios do Bob
+.bob/tmp/
+*.tmp
+*.log
+
+# Sistema operacional
+.DS_Store
+Thumbs.db

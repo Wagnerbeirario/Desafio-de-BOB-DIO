@@ -1,0 +1,230 @@
+DIO EXPLORER — RELATÓRIO COMPLETO DE TESTES E SAÍDAS
+Gerado em: 03/09/2026
+Aluno: Carlos Eduardo
+
+════════════════════════════════════════════════════════════
+
+[ COMANDO /trilha Java ]
+
+════════════════════════════════════════════════════════════
+
+╔══════════════════════════════════════════════════════════╗
+║           🎓 PLANO DE ESTUDOS — DIO EXPLORER             ║
+╚══════════════════════════════════════════════════════════╝
+
+📚 Trilha: Formação Java Spring Boot Profissional
+🛠️  Tecnologia: Java
+📊 Nível: Intermediário ao Avançado
+🧩 Total de Módulos: 13
+⭐ XP Total ao Concluir: 19000 XP
+♾️  Acesso Vitalício: Sim
+
+──────────────────────────────────────────────────────────
+🗺️  MÓDULOS DO PLANO DE ESTUDOS
+──────────────────────────────────────────────────────────
+
+  Módulo 01 — Introdução e Fundamentos de Java
+  Módulo 02 — Configuração do Ambiente e Ferramentas
+  Módulo 03 — Conceitos Core: Sintaxe e Estruturas
+  Módulo 04 — Trabalhando com Funções e Módulos
+  Módulo 05 — Orientação a Objetos / Paradigmas
+  Módulo 06 — Manipulação de Dados e Arquivos
+  Módulo 07 — Integrações e APIs
+  Módulo 08 — Testes e Qualidade de Código
+  Módulo 09 — Boas Práticas e Design Patterns
+  Módulo 10 — Projeto Prático Intermediário
+  Módulo 11 — Tópicos Avançados de Java
+  Módulo 12 — Projeto Final e Deploy
+  ... (total: 13 módulos)
+
+──────────────────────────────────────────────────────────
+🏅 BADGES DISPONÍVEIS
+──────────────────────────────────────────────────────────
+
+  Java Rookie  →  Conquistada ao finalizar o Módulo 04
+  Spring Developer  →  Conquistada ao finalizar o Módulo 08
+  Java Architect  →  Conquistada ao concluir a trilha completa
+
+──────────────────────────────────────────────────────────
+💰 PROMOÇÃO ATIVA
+──────────────────────────────────────────────────────────
+
+  🔖 Desconto: 20%
+  📅 Válido até: 2025-10-31
+
+──────────────────────────────────────────────────────────
+🎙️  LIVES AO VIVO PROGRAMADAS
+──────────────────────────────────────────────────────────
+
+  API REST com Spring Boot
+    📅 Data: 2025-08-28  ⏰ Horário: 19:00
+
+  Segurança com Spring Security
+    📅 Data: 2025-09-20  ⏰ Horário: 18:00
+
+──────────────────────────────────────────────────────────
+💡 Dica: Use /desafio Java para praticar com um desafio!
+         Use /certificado <seu_nome> "Formação Java Spring Boot Profissional" ao concluir a trilha.
+──────────────────────────────────────────────────────────
+
+════════════════════════════════════════════════════════════
+
+[ COMANDO /desafio Java avancado ]
+
+════════════════════════════════════════════════════════════
+
+╔══════════════════════════════════════════════════════════╗
+║            ⚡ DESAFIO DE CÓDIGO — DIO EXPLORER           ║
+╚══════════════════════════════════════════════════════════╝
+
+🎯 Desafio: Banco de Dados em Memória
+🛠️  Tecnologia: Java
+📊 Nível: 🔴 Avancado
+⭐ XP ao Completar: 3000 XP
+🎲 Seed do Desafio: #1003
+
+──────────────────────────────────────────────────────────
+📋 ENUNCIADO
+──────────────────────────────────────────────────────────
+
+  Implemente um banco de dados chave-valor em memória com suporte a transações (BEGIN, COMMIT, ROLLBACK) e comandos SET, GET, DELETE.
+
+──────────────────────────────────────────────────────────
+✅ REQUISITOS OBRIGATÓRIOS
+──────────────────────────────────────────────────────────
+
+  [ ] Req 1: A solução deve tratar entradas inválidas
+  [ ] Req 2: Implementar ao menos um caso de teste
+  [ ] Req 3: O código deve seguir as boas práticas de Java
+  [ ] Req 4: Complexidade de tempo deve ser documentada (Big O)
+
+──────────────────────────────────────────────────────────
+📥 EXEMPLO DE ENTRADA
+──────────────────────────────────────────────────────────
+
+  db.begin()
+db.set("x", 10)
+db.rollback()
+db.get("x")
+
+──────────────────────────────────────────────────────────
+📤 EXEMPLO DE SAÍDA ESPERADA
+──────────────────────────────────────────────────────────
+
+  null  (rollback desfez o SET)
+
+──────────────────────────────────────────────────────────
+🏆 CRITÉRIOS DE AVALIAÇÃO
+──────────────────────────────────────────────────────────
+
+  ⭐⭐⭐⭐⭐  Solução otimizada + testes + documentação
+  ⭐⭐⭐⭐    Solução funcional + testes
+  ⭐⭐⭐      Solução funcional sem testes
+  ⭐⭐        Solução parcialmente funcional
+  ⭐          Tentativa com erros
+
+──────────────────────────────────────────────────────────
+⏱️  Tempo estimado: 90 minutos
+💡 Dica: Ao concluir, use /certificado <seu_nome> <trilha> para gerar seu certificado!
+──────────────────────────────────────────────────────────
+
+════════════════════════════════════════════════════════════
+
+[ COMANDO /certificado "Carlos Eduardo" Java ]
+
+════════════════════════════════════════════════════════════
+
+---
+
+<div align="center">
+
+# 🏛️ DIGITAL INNOVATION ONE
+
+## CERTIFICADO DE CONCLUSÃO
+
+---
+
+Este certificado é conferido a
+
+# CARLOS EDUARDO
+
+que concluiu com êxito a trilha de formação
+
+## "Formação Java Spring Boot Profissional"
+
+ofertada pela plataforma **DIO — Digital Innovation One**
+em parceria com os melhores especialistas do mercado.
+
+---
+
+| 🛠️ Tecnologia | 📊 Nível | 🧩 Módulos | ⭐ XP Obtido | ⏱️ Carga Horária |
+|:---:|:---:|:---:|:---:|:---:|
+| Java | Intermediário ao Avançado | 13 | 19000 XP | 104h |
+
+---
+
+### 🏅 Badges Conquistadas
+
+| Badge | Status |
+|:---:|:---:|
+| Java Rookie | ✅ Conquistada |
+| Spring Developer | ✅ Conquistada |
+| Java Architect | ✅ Conquistada |
+
+---
+
+### 📋 Informações do Certificado
+
+| Campo | Valor |
+|---|---|
+| 📅 Data de Emissão | 03/09/2026 |
+| 🔑 Código de Verificação | `DIO-JA202609C4D5` |
+| 🌐 Verificar em | https://www.dio.me/certificate/JA202609C4D5 |
+| ♾️ Acesso Vitalício | Sim |
+
+---
+
+> _"A educação é a arma mais poderosa que você pode usar para mudar o mundo."_
+> — Nelson Mandela
+
+---
+
+**Roberto Melo**
+_CEO & Founder — Digital Innovation One_
+
+🌐 [dio.me](https://www.dio.me) | 📧 contato@dio.me
+
+---
+
+_Certificado gerado pelo DIO Explorer · Documento fictício para fins educacionais_
+
+</div>
+
+---
+
+════════════════════════════════════════════════════════════
+
+[ COBERTURA DE TESTES UNITÁRIOS ]
+
+════════════════════════════════════════════════════════════
+
+╔══════════════════════════════════════════════════════════╗
+║         📊 RELATÓRIO DE COBERTURA DE TESTES              ║
+╚══════════════════════════════════════════════════════════╝
+
+  Arquivo          | Stmts  | Branch | Funcs  | Lines
+  ─────────────────|--------|--------|--------|-------
+  trilha.js        | 100%   | 84.37% | 100%   | 100%
+  desafio.js       | 100%   | 95.83% | 100%   | 100%
+  certificado.js   | 96.61% | 84.09% | 100%   | 98.07%
+  ─────────────────|--------|--------|--------|-------
+  TOTAL            | 98.44% | 87.00% | 100%   | 99.10%
+
+  Meta de cobertura: 70%   ✅ APROVADO (meta superada em todos os critérios)
+
+  Total de testes: 139
+  Testes aprovados: 139
+  Testes reprovados: 0
+  Suítes: 3 (trilha.test.js | desafio.test.js | certificado.test.js)
+
+════════════════════════════════════════════════════════════

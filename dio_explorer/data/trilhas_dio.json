@@ -1,0 +1,536 @@
+{
+  "trilhas": [
+    {
+      "id": 1,
+      "nome": "Dominando Python do Zero ao Avançado",
+      "tecnologia": "Python",
+      "nivel": "Iniciante ao Avançado",
+      "numero_de_modulos": 12,
+      "xp_total": 15000,
+      "badges_disponiveis": ["Python Starter", "Python Developer", "Python Master"],
+      "promocoes": {
+        "desconto": "30%",
+        "validade": "2025-12-31"
+      },
+      "vitalicio": true,
+      "lives_ao_vivo": [
+        { "titulo": "Python na Prática", "data": "2025-08-10", "horario": "19:00" },
+        { "titulo": "Automatizando tarefas com Python", "data": "2025-09-05", "horario": "20:00" }
+      ]
+    },
+    {
+      "id": 2,
+      "nome": "Formação JavaScript Full Stack",
+      "tecnologia": "JavaScript",
+      "nivel": "Intermediário",
+      "numero_de_modulos": 15,
+      "xp_total": 20000,
+      "badges_disponiveis": ["JS Starter", "Node.js Developer", "Full Stack Hero"],
+      "promocoes": {
+        "desconto": "20%",
+        "validade": "2025-10-15"
+      },
+      "vitalicio": true,
+      "lives_ao_vivo": [
+        { "titulo": "JavaScript Moderno com ES2024", "data": "2025-08-20", "horario": "19:00" },
+        { "titulo": "Node.js e APIs REST", "data": "2025-09-12", "horario": "18:30" }
+      ]
+    },
+    {
+      "id": 3,
+      "nome": "Trilha DevOps com Docker e Kubernetes",
+      "tecnologia": "DevOps",
+      "nivel": "Avançado",
+      "numero_de_modulos": 10,
+      "xp_total": 18000,
+      "badges_disponiveis": ["Docker Captain", "K8s Explorer", "DevOps Pro"],
+      "promocoes": {
+        "desconto": "15%",
+        "validade": "2025-11-30"
+      },
+      "vitalicio": false,
+      "lives_ao_vivo": [
+        { "titulo": "Containers na Prática", "data": "2025-08-18", "horario": "20:00" },
+        { "titulo": "Orquestração com Kubernetes", "data": "2025-09-25", "horario": "19:30" }
+      ]
+    },
+    {
+      "id": 4,
+      "nome": "Formação Machine Learning com Python",
+      "tecnologia": "Machine Learning",
+      "nivel": "Avançado",
+      "numero_de_modulos": 14,
+      "xp_total": 22000,
+      "badges_disponiveis": ["ML Beginner", "Data Scientist", "AI Champion"],
+      "promocoes": {
+        "desconto": "25%",
+        "validade": "2025-09-30"
+      },
+      "vitalicio": true,
+      "lives_ao_vivo": [
+        { "titulo": "Introdução ao scikit-learn", "data": "2025-08-22", "horario": "19:00" },
+        { "titulo": "Redes Neurais com TensorFlow", "data": "2025-09-18", "horario": "20:00" }
+      ]
+    },
+    {
+      "id": 5,
+      "nome": "Trilha React do Básico ao Profissional",
+      "tecnologia": "React",
+      "nivel": "Intermediário",
+      "numero_de_modulos": 11,
+      "xp_total": 14000,
+      "badges_disponiveis": ["React Starter", "React Developer", "React Expert"],
+      "promocoes": {
+        "desconto": "10%",
+        "validade": "2025-12-01"
+      },
+      "vitalicio": true,
+      "lives_ao_vivo": [
+        { "titulo": "Hooks e Context API", "data": "2025-08-15", "horario": "19:30" },
+        { "titulo": "React com TypeScript", "data": "2025-09-10", "horario": "20:00" }
+      ]
+    },
+    {
+      "id": 6,
+      "nome": "Formação Java Spring Boot Profissional",
+      "tecnologia": "Java",
+      "nivel": "Intermediário ao Avançado",
+      "numero_de_modulos": 13,
+      "xp_total": 19000,
+      "badges_disponiveis": ["Java Rookie", "Spring Developer", "Java Architect"],
+      "promocoes": {
+        "desconto": "20%",
+        "validade": "2025-10-31"
+      },
+      "vitalicio": true,
+      "lives_ao_vivo": [
+        { "titulo": "API REST com Spring Boot", "data": "2025-08-28", "horario": "19:00" },
+        { "titulo": "Segurança com Spring Security", "data": "2025-09-20", "horario": "18:00" }
+      ]
+    },
+    {
+      "id": 7,
+      "nome": "Trilha Cloud AWS Foundations",
+      "tecnologia": "AWS",
+      "nivel": "Iniciante",
+      "numero_de_modulos": 8,
+      "xp_total": 10000,
+      "badges_disponiveis": ["Cloud Explorer", "AWS Practitioner"],
+      "promocoes": {
+        "desconto": "35%",
+        "validade": "2025-08-31"
+      },
+      "vitalicio": false,
+      "lives_ao_vivo": [
+        { "titulo": "Primeiros passos na AWS", "data": "2025-08-12", "horario": "19:00" }
+      ]
+    },
+    {
+      "id": 8,
+      "nome": "Formação Data Engineering com Apache Spark",
+      "tecnologia": "Apache Spark",
+      "nivel": "Avançado",
+      "numero_de_modulos": 16,
+      "xp_total": 25000,
+      "badges_disponiveis": ["Data Engineer Jr", "Spark Master", "Big Data Pro"],
+      "promocoes": {
+        "desconto": "0%",
+        "validade": null
+      },
+      "vitalicio": true,
+      "lives_ao_vivo": [
+        { "titulo": "Pipeline de Dados com Spark", "data": "2025-09-02", "horario": "20:00" },
+        { "titulo": "Spark Streaming em Produção", "data": "2025-10-01", "horario": "19:30" }
+      ]
+    },
+    {
+      "id": 9,
+      "nome": "Trilha Vue.js Moderno",
+      "tecnologia": "Vue.js",
+      "nivel": "Intermediário",
+      "numero_de_modulos": 9,
+      "xp_total": 12000,
+      "badges_disponiveis": ["Vue Explorer", "Vue Developer"],
+      "promocoes": {
+        "desconto": "15%",
+        "validade": "2025-11-15"
+      },
+      "vitalicio": true,
+      "lives_ao_vivo": [
+        { "titulo": "Vue 3 com Composition API", "data": "2025-08-30", "horario": "19:00" }
+      ]
+    },
+    {
+      "id": 10,
+      "nome": "Formação Segurança da Informação e Ethical Hacking",
+      "tecnologia": "Cybersecurity",
+      "nivel": "Avançado",
+      "numero_de_modulos": 18,
+      "xp_total": 28000,
+      "badges_disponiveis": ["Security Analyst", "Ethical Hacker", "CyberSec Expert"],
+      "promocoes": {
+        "desconto": "20%",
+        "validade": "2025-09-25"
+      },
+      "vitalicio": true,
+      "lives_ao_vivo": [
+        { "titulo": "Pentest com Kali Linux", "data": "2025-08-16", "horario": "20:00" },
+        { "titulo": "OWASP Top 10 na Prática", "data": "2025-09-08", "horario": "19:00" },
+        { "titulo": "CTF ao Vivo: Desafio Hacker", "data": "2025-10-04", "horario": "21:00" }
+      ]
+    },
+    {
+      "id": 11,
+      "nome": "Trilha Go Lang para Backend",
+      "tecnologia": "Go",
+      "nivel": "Intermediário",
+      "numero_de_modulos": 10,
+      "xp_total": 13500,
+      "badges_disponiveis": ["Gopher Starter", "Go Backend Dev"],
+      "promocoes": {
+        "desconto": "10%",
+        "validade": "2025-12-15"
+      },
+      "vitalicio": true,
+      "lives_ao_vivo": [
+        { "titulo": "Microservices com Go", "data": "2025-09-14", "horario": "19:30" }
+      ]
+    },
+    {
+      "id": 12,
+      "nome": "Formação Flutter e Dart Mobile",
+      "tecnologia": "Flutter",
+      "nivel": "Iniciante ao Intermediário",
+      "numero_de_modulos": 11,
+      "xp_total": 14500,
+      "badges_disponiveis": ["Mobile Starter", "Flutter Developer", "Dart Pro"],
+      "promocoes": {
+        "desconto": "25%",
+        "validade": "2025-10-10"
+      },
+      "vitalicio": false,
+      "lives_ao_vivo": [
+        { "titulo": "Seu Primeiro App Flutter", "data": "2025-08-25", "horario": "18:30" },
+        { "titulo": "State Management com Bloc", "data": "2025-09-22", "horario": "19:00" }
+      ]
+    },
+    {
+      "id": 13,
+      "nome": "Trilha Banco de Dados SQL e NoSQL",
+      "tecnologia": "Databases",
+      "nivel": "Iniciante ao Avançado",
+      "numero_de_modulos": 12,
+      "xp_total": 16000,
+      "badges_disponiveis": ["SQL Starter", "NoSQL Explorer", "DB Architect"],
+      "promocoes": {
+        "desconto": "30%",
+        "validade": "2025-09-15"
+      },
+      "vitalicio": true,
+      "lives_ao_vivo": [
+        { "titulo": "PostgreSQL Avançado", "data": "2025-08-19", "horario": "19:00" },
+        { "titulo": "MongoDB na Prática", "data": "2025-09-16", "horario": "20:00" }
+      ]
+    },
+    {
+      "id": 14,
+      "nome": "Formação Angular Enterprise",
+      "tecnologia": "Angular",
+      "nivel": "Avançado",
+      "numero_de_modulos": 14,
+      "xp_total": 20000,
+      "badges_disponiveis": ["Angular Starter", "Angular Dev", "Enterprise Architect"],
+      "promocoes": {
+        "desconto": "0%",
+        "validade": null
+      },
+      "vitalicio": true,
+      "lives_ao_vivo": [
+        { "titulo": "Angular 17 com Signals", "data": "2025-08-27", "horario": "19:30" }
+      ]
+    },
+    {
+      "id": 15,
+      "nome": "Trilha Inteligência Artificial Generativa",
+      "tecnologia": "IA Generativa",
+      "nivel": "Intermediário ao Avançado",
+      "numero_de_modulos": 13,
+      "xp_total": 21000,
+      "badges_disponiveis": ["GenAI Explorer", "Prompt Engineer", "AI Builder"],
+      "promocoes": {
+        "desconto": "40%",
+        "validade": "2025-08-20"
+      },
+      "vitalicio": false,
+      "lives_ao_vivo": [
+        { "titulo": "LangChain na Prática", "data": "2025-08-14", "horario": "20:00" },
+        { "titulo": "Fine-tuning de LLMs", "data": "2025-09-03", "horario": "19:00" },
+        { "titulo": "Construindo Agentes com IA", "data": "2025-10-08", "horario": "20:30" }
+      ]
+    },
+    {
+      "id": 16,
+      "nome": "Formação C# e .NET Core",
+      "tecnologia": "C# / .NET",
+      "nivel": "Iniciante ao Avançado",
+      "numero_de_modulos": 15,
+      "xp_total": 19500,
+      "badges_disponiveis": ["C# Beginner", ".NET Developer", "Azure Dev"],
+      "promocoes": {
+        "desconto": "20%",
+        "validade": "2025-11-01"
+      },
+      "vitalicio": true,
+      "lives_ao_vivo": [
+        { "titulo": "ASP.NET Core do Zero", "data": "2025-09-06", "horario": "19:00" },
+        { "titulo": "Blazor e WebAssembly", "data": "2025-10-15", "horario": "20:00" }
+      ]
+    },
+    {
+      "id": 17,
+      "nome": "Trilha Rust Systems Programming",
+      "tecnologia": "Rust",
+      "nivel": "Avançado",
+      "numero_de_modulos": 12,
+      "xp_total": 23000,
+      "badges_disponiveis": ["Rustacean", "Systems Dev", "Rust Expert"],
+      "promocoes": {
+        "desconto": "15%",
+        "validade": "2025-12-20"
+      },
+      "vitalicio": true,
+      "lives_ao_vivo": [
+        { "titulo": "Ownership e Borrowing", "data": "2025-09-11", "horario": "20:00" }
+      ]
+    },
+    {
+      "id": 18,
+      "nome": "Formação Análise de Dados com Power BI",
+      "tecnologia": "Power BI",
+      "nivel": "Iniciante ao Intermediário",
+      "numero_de_modulos": 9,
+      "xp_total": 11000,
+      "badges_disponiveis": ["BI Starter", "Data Analyst", "BI Pro"],
+      "promocoes": {
+        "desconto": "30%",
+        "validade": "2025-10-20"
+      },
+      "vitalicio": false,
+      "lives_ao_vivo": [
+        { "titulo": "Dashboard Interativo no Power BI", "data": "2025-08-23", "horario": "18:00" },
+        { "titulo": "DAX Avançado para Analistas", "data": "2025-09-27", "horario": "19:00" }
+      ]
+    },
+    {
+      "id": 19,
+      "nome": "Trilha Blockchain e Web3",
+      "tecnologia": "Blockchain",
+      "nivel": "Intermediário ao Avançado",
+      "numero_de_modulos": 11,
+      "xp_total": 17500,
+      "badges_disponiveis": ["Blockchain Starter", "Solidity Dev", "Web3 Builder"],
+      "promocoes": {
+        "desconto": "20%",
+        "validade": "2025-09-05"
+      },
+      "vitalicio": true,
+      "lives_ao_vivo": [
+        { "titulo": "Smart Contracts com Solidity", "data": "2025-08-21", "horario": "20:00" },
+        { "titulo": "DeFi e NFTs na Prática", "data": "2025-09-28", "horario": "19:30" }
+      ]
+    },
+    {
+      "id": 20,
+      "nome": "Formação Kotlin para Android",
+      "tecnologia": "Kotlin",
+      "nivel": "Iniciante ao Intermediário",
+      "numero_de_modulos": 10,
+      "xp_total": 13000,
+      "badges_disponiveis": ["Kotlin Starter", "Android Developer"],
+      "promocoes": {
+        "desconto": "10%",
+        "validade": "2025-11-10"
+      },
+      "vitalicio": true,
+      "lives_ao_vivo": [
+        { "titulo": "Jetpack Compose do Zero", "data": "2025-09-01", "horario": "19:00" }
+      ]
+    },
+    {
+      "id": 21,
+      "nome": "Trilha Site Reliability Engineering (SRE)",
+      "tecnologia": "SRE / Observabilidade",
+      "nivel": "Avançado",
+      "numero_de_modulos": 12,
+      "xp_total": 20500,
+      "badges_disponiveis": ["SRE Foundations", "Observability Pro", "SRE Expert"],
+      "promocoes": {
+        "desconto": "0%",
+        "validade": null
+      },
+      "vitalicio": true,
+      "lives_ao_vivo": [
+        { "titulo": "Prometheus e Grafana na Prática", "data": "2025-09-17", "horario": "20:00" },
+        { "titulo": "SLOs, SLAs e Error Budgets", "data": "2025-10-12", "horario": "19:30" }
+      ]
+    },
+    {
+      "id": 22,
+      "nome": "Formação UX/UI Design para Devs",
+      "tecnologia": "Design / Figma",
+      "nivel": "Iniciante",
+      "numero_de_modulos": 7,
+      "xp_total": 8500,
+      "badges_disponiveis": ["Design Thinker", "UI Craftsman"],
+      "promocoes": {
+        "desconto": "50%",
+        "validade": "2025-08-18"
+      },
+      "vitalicio": false,
+      "lives_ao_vivo": [
+        { "titulo": "Prototipagem no Figma", "data": "2025-08-13", "horario": "18:30" }
+      ]
+    },
+    {
+      "id": 23,
+      "nome": "Trilha Linux e Shell Scripting",
+      "tecnologia": "Linux",
+      "nivel": "Iniciante ao Intermediário",
+      "numero_de_modulos": 8,
+      "xp_total": 10500,
+      "badges_disponiveis": ["Linux User", "Shell Scripter", "Sysadmin Jr"],
+      "promocoes": {
+        "desconto": "20%",
+        "validade": "2025-10-05"
+      },
+      "vitalicio": true,
+      "lives_ao_vivo": [
+        { "titulo": "Shell Script do Zero", "data": "2025-09-09", "horario": "19:00" }
+      ]
+    },
+    {
+      "id": 24,
+      "nome": "Formação TypeScript Full Stack",
+      "tecnologia": "TypeScript",
+      "nivel": "Intermediário",
+      "numero_de_modulos": 12,
+      "xp_total": 16500,
+      "badges_disponiveis": ["TS Starter", "TS Full Stack Dev", "Type Safety Pro"],
+      "promocoes": {
+        "desconto": "15%",
+        "validade": "2025-11-25"
+      },
+      "vitalicio": true,
+      "lives_ao_vivo": [
+        { "titulo": "TypeScript com NestJS", "data": "2025-09-23", "horario": "19:30" },
+        { "titulo": "TypeScript Avançado: Generics e Decorators", "data": "2025-10-21", "horario": "20:00" }
+      ]
+    },
+    {
+      "id": 25,
+      "nome": "Trilha Desenvolvimento de Games com Unity",
+      "tecnologia": "Unity / C#",
+      "nivel": "Iniciante ao Intermediário",
+      "numero_de_modulos": 13,
+      "xp_total": 18500,
+      "badges_disponiveis": ["Game Rookie", "Unity Developer", "Indie Game Creator"],
+      "promocoes": {
+        "desconto": "35%",
+        "validade": "2025-09-01"
+      },
+      "vitalicio": false,
+      "lives_ao_vivo": [
+        { "titulo": "Seu Primeiro Jogo 2D com Unity", "data": "2025-08-17", "horario": "15:00" },
+        { "titulo": "Física e Animação no Unity", "data": "2025-09-13", "horario": "15:00" }
+      ]
+    },
+    {
+      "id": 26,
+      "nome": "Formação MLOps e Deploy de Modelos",
+      "tecnologia": "MLOps",
+      "nivel": "Avançado",
+      "numero_de_modulos": 14,
+      "xp_total": 24000,
+      "badges_disponiveis": ["MLOps Starter", "Model Deployer", "MLOps Engineer"],
+      "promocoes": {
+        "desconto": "0%",
+        "validade": null
+      },
+      "vitalicio": true,
+      "lives_ao_vivo": [
+        { "titulo": "MLflow e Tracking de Experimentos", "data": "2025-09-19", "horario": "20:00" },
+        { "titulo": "Deploy de Modelos com FastAPI e Docker", "data": "2025-10-16", "horario": "19:00" }
+      ]
+    },
+    {
+      "id": 27,
+      "nome": "Trilha Arquitetura de Software e Clean Code",
+      "tecnologia": "Arquitetura de Software",
+      "nivel": "Avançado",
+      "numero_de_modulos": 10,
+      "xp_total": 17000,
+      "badges_disponiveis": ["Clean Coder", "SOLID Master", "Software Architect"],
+      "promocoes": {
+        "desconto": "10%",
+        "validade": "2025-12-10"
+      },
+      "vitalicio": true,
+      "lives_ao_vivo": [
+        { "titulo": "Clean Architecture na Prática", "data": "2025-09-24", "horario": "19:00" },
+        { "titulo": "Domain Driven Design (DDD)", "data": "2025-10-22", "horario": "19:30" }
+      ]
+    },
+    {
+      "id": 28,
+      "nome": "Formação Google Cloud Platform",
+      "tecnologia": "GCP",
+      "nivel": "Iniciante ao Intermediário",
+      "numero_de_modulos": 9,
+      "xp_total": 12500,
+      "badges_disponiveis": ["GCP Explorer", "Cloud Developer", "GCP Associate"],
+      "promocoes": {
+        "desconto": "25%",
+        "validade": "2025-10-28"
+      },
+      "vitalicio": false,
+      "lives_ao_vivo": [
+        { "titulo": "BigQuery e Análise de Dados na GCP", "data": "2025-09-26", "horario": "18:00" }
+      ]
+    },
+    {
+      "id": 29,
+      "nome": "Trilha Automação com n8n e Low-Code",
+      "tecnologia": "n8n / Low-Code",
+      "nivel": "Iniciante",
+      "numero_de_modulos": 6,
+      "xp_total": 7500,
+      "badges_disponiveis": ["Automation Starter", "Low-Code Builder"],
+      "promocoes": {
+        "desconto": "50%",
+        "validade": "2025-08-25"
+      },
+      "vitalicio": false,
+      "lives_ao_vivo": [
+        { "titulo": "Criando Automações com n8n", "data": "2025-08-11", "horario": "19:00" }
+      ]
+    },
+    {
+      "id": 30,
+      "nome": "Formação Computação Quântica para Devs",
+      "tecnologia": "Quantum Computing",
+      "nivel": "Avançado",
+      "numero_de_modulos": 11,
+      "xp_total": 26000,
+      "badges_disponiveis": ["Quantum Explorer", "Qubit Programmer", "Quantum Pioneer"],
+      "promocoes": {
+        "desconto": "20%",
+        "validade": "2025-11-20"
+      },
+      "vitalicio": true,
+      "lives_ao_vivo": [
+        { "titulo": "Introdução ao Qiskit", "data": "2025-09-29", "horario": "20:00" },
+        { "titulo": "Algoritmos Quânticos na Prática", "data": "2025-10-27", "horario": "19:30" }
+      ]
+    }
+  ]
+}
